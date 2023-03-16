@@ -1,0 +1,168 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 1000px;
+  background-color: #0c0004;
+}
+
+/* upper bar styling */
+.upperBar {
+  background-color: rgb(42, 42, 48);
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: inline;
+}
+
+#icon {
+  cursor: pointer;
+}
+#imgIcon {
+  margin-top: 1vh;
+  width: 7vw;
+  height: 8vh;
+  margin-left: 1vw;
+}
+
+.searchBar {
+  margin-top: 3vh;
+  margin-left: 20vw;
+}
+
+#searchIcon {
+  height: 22px;
+  width: 22px;
+
+  padding: 0;
+  cursor: pointer;
+}
+
+#searchBtn {
+  margin: 0;
+  margin-top: 3vh;
+  height: 30px;
+  width: 40px;
+  background-color: white;
+  border: none;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+#searchBtn:hover {
+  background-color: #ddd;
+}
+
+#searchInputBox {
+  height: 28px;
+  width: 20vw;
+  font-size: large;
+  border: none;
+  margin-right: 0;
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  justify-content: inline;
+  margin-left: 35vw;
+  color: white;
+}
+
+#avatar {
+  margin-left: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+/* main movie styling */
+
+.mainContent {
+  background-color: #0c0004;
+  height: 90vh;
+  margin-top: -2vh;
+}
+
+.movieContent {
+  margin: 0;
+  width: 40vw;
+  padding-top: 5vh;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+}
+
+.movieContent #name {
+  font-weight: 700;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.movieContent #name:hover {
+  font-weight: 700;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+}
+.movieContent #description {
+  width: 35vw;
+  font-family: monospace;
+  font-size: larger;
+  color: whitesmoke;
+}
+
+.movieContent #posterContainer {
+  height: 200px;
+  width: 150px;
+  margin-bottom: 3vh;
+}
+
+.movieContent #posterContainer .a {
+  cursor: pointer;
+}
+
+.movieContent #posterContainer {
+  display: inline-flex;
+  margin-bottom: 3vh;
+}
+
+.movieContent i {
+  font-size: 30px;
+  margin-left: 2vw;
+  cursor: pointer;
+  margin-top: 420px;
+
+  color: green;
+}
+
+.movieContent #name {
+  display: block;
+  color: whitesmoke;
+  width: 10vw;
+}
+
+/* tooltip styling */
+
+#tooltip {
+  position: absolute;
+  display: flex;
+
+  color: white;
+  margin-top: 400px;
+  margin-left: 300px;
+  opacity: 0;
+}
+
+#favorite {
+  font-size: xx-large;
+  font-weight: 800;
+  color: whitesmoke;
+  margin-left: 4vw;
+
+  width: 30vw;
+}
+
+#favorite:hover {
+  color: purple;
+}

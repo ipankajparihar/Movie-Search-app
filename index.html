@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="upperBar">
+      <div id="icon">
+        <a href="./index.html">
+          <img
+            id="imgIcon"
+            src="https://cdn-icons-png.flaticon.com/512/5977/5977585.png"
+          />
+        </a>
+      </div>
+      <div class="searchBar">
+        <input
+          id="searchInputBox"
+          type="text"
+          placeholder="search here"
+          value=""
+        />
+      </div>
+      <div id="suggestionBox"></div>
+      <button id="searchBtn" type="submit">
+        <img
+          id="searchIcon"
+          src="https://cdn-icons-png.flaticon.com/512/151/151773.png"
+        />
+      </button>
+      <div class="user">
+        <span id="userName"><h2>John Wick</h2></span>
+
+        <img
+          id="avatar"
+          src="https://cdn-icons-png.flaticon.com/512/924/924874.png"
+        />
+      </div>
+    </div>
+    <div class="mainContent">
+      <div class="movieContent">
+        <!-- <img id="poster" src="" /> -->
+        <div id="posterContainer">
+          <a href="./html/Movie.html" id="poster"> </a>
+
+          <i class="fa fa-light fa-heart" id="heart" value="false"></i>
+          <p id="tooltip">add to favorite</p>
+        </div>
+
+        <a href="./html/Movie.html" id="name"></a>
+
+        <div id="description"></div>
+      </div>
+      <a href="./html/myFavoriteMoviePage.html">
+        <div id="favorite"><span>Favorite Movies</span></div>
+      </a>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

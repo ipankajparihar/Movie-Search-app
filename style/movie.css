@@ -1,0 +1,100 @@
+body {
+  background-color: #0c0004;
+  margin: 0;
+  padding: 0;
+  min-width: 900px;
+  color: silver;
+}
+
+.upperBar {
+  background-color: rgb(42, 42, 48);
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: inline;
+}
+
+#imgIcon {
+  margin-top: 0.5vh;
+  width: 7vw;
+  height: 8vh;
+  margin-left: 1vw;
+}
+
+.user {
+  display: flex;
+  justify-content: inline;
+  position: sticky;
+  margin-left: 75vw;
+  text-align: right;
+  color: white;
+  margin-top: 1vh;
+}
+#icon a {
+  cursor: pointer;
+}
+
+#avatar {
+  /* margin-left: 3vw; */
+
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.movieContent1 {
+  display: block;
+  justify-content: center;
+  justify-items: center;
+
+  padding: 10%;
+}
+
+.movieContent1 #posterImg {
+  height: 400px;
+  width: 300px;
+  margin-bottom: 3vh;
+}
+
+.movieContent1 #name1 {
+  font-size: larger;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+.movieContent1 #plot1 {
+  font-size: large;
+  font-family: monospace;
+}
+.movieContent1 #actor1 {
+  font-size: large;
+  font-weight: 600;
+}
+
+.movieContent1 #releseDate1 {
+  font-size: large;
+  font-weight: 600;
+}
+
+.movieContent1 #duration1 {
+  font-size: large;
+  font-weight: 600;
+}
+
+.movieContent1 #rating1 {
+  font-size: large;
+  font-weight: 500;
+}
+.movieContent1 #awards1 {
+  font-size: large;
+  font-weight: 500;
+}
+
+.movieContent1 #director1 {
+  font-size: large;
+  font-weight: 500;
+}
+
+.movieContent1 #writer1 {
+  font-size: large;
+  font-weight: 500;
+}
