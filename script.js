@@ -44,7 +44,7 @@ let searchBtn = document
 let movie = getInputValue();
 async function getMovies(movie) {
   const response = await fetch(
-    `https://cors-anywhere.herokuapp.com/https://www.omdbapi.com/?i=tt3896198&apikey=7ff267b9&t=${movie}`
+    `https://cors-anywhere.herokuapp.com/www.omdbapi.com/?i=tt3896198&apikey=7ff267b9&t=${movie}`
   );
 
   if (response) {
